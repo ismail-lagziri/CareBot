@@ -1,0 +1,181 @@
+{"intents":
+[
+    {
+	"tag":"greetings",
+	"patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+	"responses":["Hello! It's great to hear from you.", "Hi there! How can I help you today?", "Hey! How's your day going?"],
+	"context": [""]
+    },
+    {
+	"tag":"goodbye",
+	"patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
+	"responses":["Take care and have a great day!", "Goodbye! Don't hesitate to reach out if you need anything.", "See you soon!"],
+	"context": [""]
+    },
+    {
+	"tag": "noanswer",
+	"patterns": [],
+	"responses": ["I'm sorry, I don't quite understand. Can you rephrase that?", "Could you please provide more information?", "I'm not sure what you mean. Can you explain further?"],
+	"context": [""]
+    },
+    {
+	"tag": "thanks",
+	"patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+	"responses": ["You're very welcome!", "Glad I could assist you.", "It's my pleasure to help."],
+	"context": [""]
+    },
+    {
+	"tag":"age",
+	"patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+	"responses":["I'm just a machine learning model, so I don't have an age!", "I don't age, but my creators are always working to improve my capabilities.", "I don't have an age, but I'm always here to assist you."],
+	"context": [""]
+    },
+    {
+    	"tag": "options",
+    	"patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+    	"responses": ["I'm here to help you take care of your health.", "I can provide advice and support for your healthcare needs."],
+    	"context": [""]
+    },
+    {
+    	"tag": "name",
+    	"patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+    	"responses": ["You can call me CareBot! I'm your medical assistant.", "I'm CareBot, your personal healthcare assistant."],
+    	"context": [""]
+    },
+    {
+    	"tag": "common cold symptoms",
+    	"patterns": ["Runny or stuffy nose","Sore throat","Cough", "Congestion","Slight body aches or a mild headache","Sneezing","Low-grade fever","Generally feeling unwell (malaise)"],
+    	"responses": ["It sounds like you may have the common cold. Be sure to get plenty of rest and drink lots of fluids to help your body recover."],
+    	"context": [""]
+    },
+    {
+    	"tag": "hypertensive disease",
+    	"patterns": ["pain chest","shortness of breath","dizziness","asthenia","fall","syncope","vertigo","sweat","sweating increased","palpitation","nausea","angina pectoris","pressure chest"], 
+    	"responses": ["We're here to support you. It's possible that you may be experiencing hypertensive disease. Please seek medical attention as soon as possible."],
+    	"context": [""]
+    },
+    {
+	"tag":"fever symptoms",
+	"patterns":["Sweating","Chills and shivering","Headache","Muscle aches","Loss of appetite","Irritability","Dehydration","General weakness"],
+	"responses":["It seems that you are suffering from fever. The symptoms you are experiencing, such as sweating, chills and shivering, headache, muscle aches, loss of appetite, irritability, dehydration, and general weakness, are all common indicators of fever. It is important to stay hydrated and rest as much as possible to help your body recover."],
+	"context": [""]
+    },
+    {
+	"tag":"Diabetes symptoms",
+	"patterns":["increased hunger","increased thirst","weight loss","frequent urination","blurry vision","extreme fatigue"],
+	"responses":["It seems that you are suffering from Diabetes. The symptoms you are experiencing, such as increased hunger, increased thirst, weight loss, frequent urination, blurry vision, and extreme fatigue, are all common indicators of diabetes. It is important to see a doctor for proper diagnosis and treatment to manage your condition."],
+	"context": [""]
+    },
+    {
+    	"tag": "migraine",
+    	"patterns": ["I have a headache", "My head hurts", "What can I do for a migraine?", "How can I prevent migraines?"],
+    	"responses": ["I'm sorry to hear that. Migraines can be really tough. Try drinking some water, taking a nap, or using a cold compress on your forehead to help ease the pain. You can also try over-the-counter pain relievers like ibuprofen or acetaminophen. To prevent migraines, try keeping a headache diary to identify potential triggers, such as stress, lack of sleep, or certain foods, and avoid them if possible. Regular exercise, getting enough sleep, and practicing relaxation techniques can also help prevent migraines.", "Did you know that some common migraine triggers include stress, changes in sleep patterns, certain foods and drinks, and hormonal changes? If you're experiencing migraines frequently, it may be worth keeping a headache diary to help identify potential triggers. Additionally, there are prescription medications that can help prevent migraines. Talk to your healthcare provider about your options."],
+    	"context": [""]
+    },
+    {
+    	"tag": "depression",
+    	"patterns": ["I'm feeling sad", "I'm not enjoying things anymore", "How can I manage my depression?", "What are some treatments for depression?"],
+    	"responses": ["I'm sorry to hear that. It's important to remember that depression is a medical condition and it's not your fault. There are many treatment options available, including therapy and medication. Additionally, there are many things you can do to take care of yourself, such as exercising regularly, eating a balanced diet, and getting enough sleep. It's also important to reach out to friends and family for support.", "There are many treatments available for depression, including therapy, medication, and lifestyle modifications. If you're experiencing symptoms of depression, it's important to seek help right away. Your healthcare provider can help you develop a personalized treatment plan that's right for you."],
+    	"context": [""]
+    },
+    {
+    	"tag": "asthma",
+    	"patterns": ["I'm having trouble breathing", "I have a cough", "How can I manage my asthma?", "What are some triggers for asthma?"],
+    	"responses": ["I'm sorry to hear that. If you're experiencing difficulty breathing, it's important to seek medical attention right away. In the meantime, try to stay calm and take slow, deep breaths. Avoid any known triggers, such as cigarette smoke or pollen. If you have a rescue inhaler, use it as directed. To manage asthma, it's important to work with your healthcare provider to develop a personalized treatment plan. This may include medications to control inflammation, as well as lifestyle modifications such as avoiding triggers and exercising regularly.", "Some common triggers for asthma include exercise, allergies, pollution, and respiratory infections. If you have asthma, it's important to work with your healthcare provider to develop a personalized management plan. This may include medications to control inflammation, as well as lifestyle modifications such as avoiding triggers and staying active."],
+    	"context": [""]
+    },
+    {
+	"tag":"common cold prevention",
+	"patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+	"responses":["There are several over-the-counter medicines you can buy to help manage your common cold symptoms, such as Dextromethorphan, Decongestant, Diphenhydramine, and Crocin Cold & Flu Max. In terms of prevention, it is important to wash your hands frequently, avoid touching your face, clean frequently used surfaces, and use hand sanitizers. Foods that are high in garlic, Vitamin C, leafy greens, broccoli, oatmeal, spices, and chicken soup can also help boost your immune system and alleviate symptoms."],
+	"context": [""]
+    },
+    {
+    	"tag":"anemia",
+    	"patterns":["chill","guaiac positive","monoclonal","ecchymosis", "tumor cell invasion","haemorrhage","pallor","asthenia","fatigue","heme positive","pain back", "orthostasis","hyponatremia","dizziness","shortness of breath","pain","rhonchus", "arthralgia","swelling","transaminitis"],
+    	"responses":[
+        	"It seems like you may be experiencing symptoms of anemia. Anemia is a condition where you have a low red blood cell count, which can cause fatigue, weakness, and shortness of breath. It's important to see a healthcare provider to get a proper diagnosis and treatment plan.",
+        	"If you're experiencing symptoms of anemia, there are several tests that can help diagnose the condition, including a complete blood count (CBC) test and tests for iron, vitamin B12, and folic acid levels. Treatment for anemia depends on the underlying cause and may include iron supplements, vitamin B12 injections, and other medications.",
+        	"If you're feeling tired or weak and think you may have anemia, it's important to see a healthcare provider as soon as possible. Anemia can be caused by a number of factors, including a lack of iron, vitamin B12, or folic acid, and can lead to serious health problems if left untreated."
+    	],
+    	"context": [""]
+    },
+
+    {
+    	"tag":"fever prevention",
+    	"patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+    	"responses":[
+         	"If you have a fever, it's important to stay hydrated and get plenty of rest. You can also take over-the-counter medications like acetaminophen or ibuprofen to help reduce your fever and relieve any aches and pains. If your fever persists for more than a few days or is accompanied by other symptoms like a rash or difficulty breathing, it's important to see a healthcare provider.",
+        	"To prevent fever, it's important to practice good hygiene by washing your hands regularly and avoiding contact with people who are sick. You can also boost your immune system by eating a healthy diet that includes plenty of fruits and vegetables, getting regular exercise, and getting enough sleep.",
+        	"If you're experiencing a fever, it's important to stay hydrated and get plenty of rest. You can also take over-the-counter medications like acetaminophen or ibuprofen to help reduce your fever and relieve any discomfort. If your fever persists or is accompanied by other symptoms, it's important to see a healthcare provider to determine the underlying cause."
+    	],
+    	"context": [""]
+    },
+    {
+        "tag":"diabetes prevention",
+        "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+        "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"],
+        "context": [""]
+    },
+    {
+        "tag":"depression prevention",
+        "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+        "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"],
+        "context": [""]
+    },
+    {
+        "tag":"asthma prevention",
+        "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+        "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"],
+        "context": [""]
+    },
+    {
+    	"tag": "symptom_checker",
+    	"patterns": ["I'm not feeling well", "What could be wrong with me?", "What are my symptoms?", "Can you help diagnose me?", "What's causing my symptoms?"],
+    	"responses": ["I can help you with that. Please tell me your symptoms and I'll try to diagnose you."],
+    	"context": [""]
+    },
+    {
+    	"tag": "symptoms_common_cold",
+    	"patterns": ["I have a runny nose", "My throat is sore", "I'm coughing", "I have a headache", "I feel congested", "I have a fever", "I'm sneezing", "I feel tired", "I have body aches"],
+    	"responses": ["It sounds like you may have a common cold. You should rest and drink plenty of fluids. Over-the-counter medications may help with your symptoms."],
+    	"context": ["symptom_checker"] 
+    },
+    {
+    	"tag": "symptoms_flu",
+    	"patterns": ["I have a fever", "I'm coughing", "My throat is sore", "I have a runny or stuffy nose", "I feel tired", "I have body aches", "I'm vomiting", "I have diarrhea"],
+    	"responses": ["It sounds like you may have the flu. You should rest and drink plenty of fluids. Over-the-counter medications may help with your symptoms. If your symptoms worsen, you should see a doctor."],
+    	"context": ["symptom_checker"]
+    },
+    {
+    	"tag": "symptoms_allergies",
+    	"patterns": ["My eyes are itchy", "My nose is stuffy", "I'm sneezing", "My throat is itchy", "I have a rash", "I'm coughing"],
+    	"responses": ["It sounds like you may have allergies. You can try over-the-counter antihistamines to relieve your symptoms. If your symptoms persist, you should see a doctor."],
+    	"context": ["symptom_checker"]
+    },
+    {
+    	"tag": "symptoms_migraine",
+    	"patterns": ["I have a headache", "The pain is on one side of my head", "I'm sensitive to light", "I'm sensitive to sound", "I feel nauseous", "I have blurred vision"],
+    	"responses": ["It sounds like you may have a migraine. You can try over-the-counter pain relievers or prescription medications to relieve your symptoms. If your symptoms persist, you should see a doctor."],
+    	"context": ["symptom_checker"]
+    },
+    {
+    	"tag": "symptoms_anxiety",
+    	"patterns": ["I feel nervous", "I'm worried about things", "I'm irritable", "I have trouble sleeping", "I'm sweating", "I have a rapid heartbeat"],
+    	"responses": ["It sounds like you may have anxiety. You can try relaxation techniques, such as deep breathing or meditation, to help calm yourself. If your symptoms persist, you should see a doctor."],
+    	"context": ["symptom_checker"]
+    },
+    {
+    	"tag": "medication_side_effects",
+    	"patterns": ["I'm experiencing side effects from my medication", "My medication is making me feel sick", "I'm having an allergic reaction to my medication"],
+    	"responses": ["You should stop taking the medication and contact your doctor immediately. They will be able to advise you on what to do next."],
+    	"context": [""]
+    },
+    {
+    	"tag": "emergency",
+    	"patterns": ["I need emergency help", "I'm having a medical emergency", "I need an ambulance", "I'm experiencing chest pain", "I can't breathe", "I'm bleeding heavily"],
+    	"responses": ["Please call your local emergency services or go to the nearest hospital immediately."],
+    	"context": [""]
+    }
+]}
+         
