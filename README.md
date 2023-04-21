@@ -4,7 +4,7 @@ CareBot is a personalized and intelligent chatbot for medical needs, designed to
 
 ![Chatbot UI](/interface.png)
 
-##Overview
+## Overview
 The bot is trained on a dataset of intents, which are common questions or statements that a user might ask related to healthcare. The bot uses natural language processing (NLP) techniques to understand the user's query and provide an appropriate response.
 
 ## Installation
@@ -40,7 +40,7 @@ python training.py
 ```
 
 
-##Usage
+## Usage
 To start the bot, run the following command:
 ```sh
 python interface.py
