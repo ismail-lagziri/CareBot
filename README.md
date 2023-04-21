@@ -1,7 +1,9 @@
 # CareBot
 
 CareBot is a personalized and intelligent chatbot for medical needs, designed to assist users in finding information related to their health and well-being.
+
 ![Chatbot UI](/interface.png)
+
 ##Overview
 The bot is trained on a dataset of intents, which are common questions or statements that a user might ask related to healthcare. The bot uses natural language processing (NLP) techniques to understand the user's query and provide an appropriate response.
 
